@@ -20,3 +20,18 @@ body
 {
     background-color: black;
 }
+
+#Download_button
+{
+    font-size: 200%;
+    background-color: black;
+    color: white;
+}
+
+a
+{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    color: white;
+}
