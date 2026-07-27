@@ -1,13 +1,13 @@
-var AlfredEnabled = false
+var SteveEnabled = false
 
 document.addEventListener("click", () => {
-    if (AlfredEnabled === false) {
-        AlfredEnabled = true
-        document.body.style.backgroundImage = "url(graphics/Alfred.png)"
+    if (SteveEnabledEnabled === false) {
+        SteveEnabledEnabled = true
+        document.body.style.backgroundImage = "url(graphics/Steve.png)"
         return
     }
-    if (AlfredEnabled === true) {
-        AlfredEnabled = false
+    if (SteveEnabledEnabled === true) {
+        SteveEnabledEnabled = false
         document.body.style.backgroundImage = null
         return
     }
