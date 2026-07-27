@@ -3,7 +3,7 @@ var SteveEnabled = false
 document.addEventListener("click", () => {
     if (SteveEnabled === false) {
         SteveEnabled = true
-        document.body.style.backgroundImage = "url(graphics/Steve.png)"
+        document.body.style.backgroundImage = "url(graphics/Steve.jpg)"
         return
     }
         if (SteveEnabled === true) {
