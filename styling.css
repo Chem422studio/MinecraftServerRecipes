@@ -4,6 +4,11 @@ div
     justify-content: center;
 }
 
+body
+{
+    background-image: url("graphics/Alfred.png");
+}
+
 .big
 {
     font-style: italic;
@@ -16,10 +21,7 @@ p
     color: white;
 }
 
-body
-{
-    background-color: black;
-}
+
 
 #Download_button
 {
