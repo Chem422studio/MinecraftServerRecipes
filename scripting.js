@@ -1,22 +1,18 @@
-var StateOfText = 0
-
-var gg = document.getElementsByTagName("p")
+var AlfredEnabled = false
 
 document.addEventListener("click", () => {
-    if (StateOfText === 1) {
-        StateOfText = 0
-        for (var i = 0; i < gg.length; i++)
-        {
-            gg[i].style.color = "orange"
-        }
+    if (AlfredEnabled === false) {
+        AlfredEnabled = true
+        document.body.style.backgroundImage = "url(graphics/Alfred.png)"
         return
     }
-    if (StateOfText === 0) {
-        StateOfText = 1
-        for (var i = 0; i < gg.length; i++)
-        {
-            gg[i].style.color = "white"
-        }
+    if (AlfredEnabled === true) {
+        AlfredEnabled = false
+        document.body.style.backgroundImage = null
         return
     }
+    
 })
+
+
+
